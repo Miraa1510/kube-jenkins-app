@@ -1,8 +1,8 @@
 pipeline{
     agent any
     tools {
-            jdk 'JDK25'   // matches the name you configured in Jenkins
-            maven 'Maven3' // if you configured Maven in Jenkins too
+            jdk 'JAVA'   // matches the name you configured in Jenkins
+            maven 'maven' // if you configured Maven in Jenkins too
         }
     stages{
         stage("checkout"){
