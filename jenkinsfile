@@ -1,7 +1,7 @@
 pipeline{
     agent any
     stages{
-        stage("clone"){
+        stage("checkout"){
             steps{
             retry(3){
                git "https://github.com/Miraa1510/kube-jenkins-app.git"
